@@ -81,6 +81,11 @@ public class Personaggio {
 	
 	public boolean raccogliStrumento(Strumento strumento){
 		return this.borsa.aggiungi(strumento);
+		//printare il nome di chi ha cosa
+	}
+	
+	public boolean gettaStrumento(Strumento strumento){
+		return this.borsa.rimuovi(strumento);
 	}
 	
 	
