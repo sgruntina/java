@@ -1,0 +1,11 @@
+REQUISITI DIADIA
+
+- Personaggio (nome, Tipo, genere, razza, Borsa, ...)
+- NPC
+- Azioni
+- Interazioni
+- Mappa
+- Gioco
+- Borsa
+- Strumenti
+-...
