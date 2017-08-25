@@ -16,7 +16,7 @@ public class Borsa {
 		for(int i = 0; i < this.contenuto.length; i++){
 			if (this.contenuto[i] == null){
 				this.contenuto[i] = strumento;
-				System.out.println(strumento + " AGGIUNTO!");
+				//System.out.println(strumento + " AGGIUNTO");
 				return true;
 			}	
 		} 
@@ -30,7 +30,7 @@ public class Borsa {
 			//if elemento != null
 			if(strumento.equals(this.contenuto[i])){
 				this.contenuto[i] = null;
-				System.out.println(strumento + " RIMOSSO!");
+				System.out.println(strumento + " RIMOSSO");
 				return true;
 				//fallisce quando non viene trovato l'elemento da rimuovere
 			}

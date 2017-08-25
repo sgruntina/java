@@ -80,8 +80,11 @@ public class Personaggio {
 	}
 	
 	public boolean raccogliStrumento(Strumento strumento){
-		return this.borsa.aggiungi(strumento);
-		//printare il nome di chi ha cosa
+		boolean aggiunto = this.borsa.aggiungi(strumento);
+		if (aggiunto){
+			System.out.println("AGGIUNTO a " + this.nome);
+		}
+		return aggiunto;
 	}
 	
 	public boolean gettaStrumento(Strumento strumento){

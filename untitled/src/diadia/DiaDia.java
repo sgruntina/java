@@ -5,7 +5,7 @@ import diadia.lettori.Lettore;
 public class DiaDia {
 
 	public static void main(String[] args) {
-		Lettore lettore = new Lettore();
+		//Lettore lettore = new Lettore();
 		Personaggio ciccia = creaPersonaggio("Ciccia", "Buffa", "Verde", "F");
 		Personaggio giorgio = creaPersonaggio("Giorgio", "Giorgi", "Rosso", "M");
 		System.out.println(giorgio);
@@ -19,8 +19,9 @@ public class DiaDia {
 		ciccia.gettaStrumento(new Strumento("clava", "arma"));
 		System.out.println(ciccia.getBorsa());
 		System.out.println(giorgio.getBorsa());
-		System.out.println(lettore.leggiBooleano());
-		System.out.println(lettore.leggiIntero());
+		//System.out.println(lettore.leggiBooleano());
+		//System.out.println(lettore.leggiIntero());
+		Labirintite labirinto = new Labirintite();
 
 
 	}
